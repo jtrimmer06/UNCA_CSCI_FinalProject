@@ -16,7 +16,7 @@ public class QuizTime extends Quiz{
 				+ "\n" + "The last ten are math questions, respond with the integer the equation is equal to."
 				+ "\n" + "Each question is worth four points. ");
 		//Questions
-			//mc
+			//multiple choice 
 		 mcQuestion mc1 = new mcQuestion ("Whats Joes Name?", "Joe", "Jim", "John", "Jack"); 
 		 quiz.AddQuestion(mc1);
 		 mcQuestion mc2 = new mcQuestion ("Which state is Asheville in?", "NC", "SC", "PA", "CA");
@@ -27,7 +27,7 @@ public class QuizTime extends Quiz{
 		 quiz.AddQuestion(mc4);
 		 mcQuestion mc5 = new mcQuestion ("The best thing about November is ____.", "Turkey", "Turkey", "Turkey", "Turkey");
 		 quiz.AddQuestion(mc5);	
-		 	//tf
+		 	//true false
 		 tfQuestion tf1 = new tfQuestion ("This is a question.", "false");
 		 quiz.AddQuestion(tf1);
 		 tfQuestion tf2 = new tfQuestion ("Is this a question?", "true");
